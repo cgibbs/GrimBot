@@ -3,6 +3,13 @@ var env = require('../config.json'),
     Imgur = require('./Imgur.js'),
     Giphy = require('./Giphy.js'),
     Urban = require('./Urban.js');
+    CheckIn = require('./CheckIn.js');
+    CheckOut = require('./CheckOut.js');
+    NewSession = require('./NewSession.js');
+    Report = require('./Report.js');
+    When = require('./When.js');
+    SetWhen = require('./SetWhen.js');
+    ForgetAboutDre = require('./ForgetAboutDre.js');
 
 var InsomBot = function () {
     this.keywords = env.keywords;
@@ -10,6 +17,13 @@ var InsomBot = function () {
     this.Imgur = new Imgur;
     this.Giphy = new Giphy;
     this.Urban = new Urban;
+    this.CheckIn = new CheckIn;
+    this.CheckOut = new CheckOut;
+    this.NewSession = new NewSession;
+    this.Report = new Report;
+    this.When = new When;
+    this.SetWhen = new SetWhen;
+    this.ForgetAboutDre = new ForgetAboutDre;
 };
 
 InsomBot.prototype.loadKeywords = function ()
