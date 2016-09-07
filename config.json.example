@@ -5,9 +5,14 @@
     },
   "keywords": {
     "Help": "!commands",
-    "Giphy": "!giphy",
-    "Imgur": "!img",
-    "Urban": "!define"
+    "CheckIn": "!checkIn",
+    "CheckOut": "!checkOut",
+    "Report": "!report",
+    "Roll": "!roll",
+    "When": "!when",
+    "SetWhen": "!setWhen",
+    "NewSession": "!newSession",
+    "ForgetAboutDre": "!forgetAboutDre"
   },
   "giphy_key": "dc6zaTOxFJmzC",
   "imgur_key": "",
