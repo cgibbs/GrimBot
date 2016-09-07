@@ -3,9 +3,9 @@ var fs = require('fs');
 
 var filename = './insombot/currentStuff.json';
 
-var CheckInModule = function () {};
+var SetWhenModule = function () {};
 
-CheckInModule.prototype.Message = function(keyword, message, callback)
+SetWhenModule.prototype.Message = function(keyword, message, callback)
 {
     var jsonObject = JSON.parse(fs.readFileSync(filename));
 
@@ -17,4 +17,4 @@ CheckInModule.prototype.Message = function(keyword, message, callback)
     return callback('the next session has been set to be on ' + jsonObject.sessionTime);
 }
 
-module.exports = CheckInModule;
+module.exports = SetWhenModule;

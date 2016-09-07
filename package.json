@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "discord.js": "^3.6.2",
+    "lodash": "^4.15.0",
+    "node-dice-js": "0.1.2"
   },
   "keywords": [
     "insombot"
