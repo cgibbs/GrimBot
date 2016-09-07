@@ -5,8 +5,7 @@ var GiphyModule = function () {};
 
 GiphyModule.prototype.Message = function(keyword, message, callback)
 {
-    var giphyIndex = message.content.indexOf(keyword);
-    var term = message.content.substring(giphyIndex + keyword.length).trim().replace(/\s/g, "+");
+    var term = message.content.split(' ').splice(1).join('+');
 
     Giphy.random(term, function (err, data) {
         if(err) {
@@ -16,7 +15,7 @@ GiphyModule.prototype.Message = function(keyword, message, callback)
         if(data.data.length != 0) {
             return callback(data.data.url);
         }
-        return callback(message.content.substring(giphyIndex + keyword.length).trim()+" not found");
+        return callback(term + " not found");
     });
 }
 

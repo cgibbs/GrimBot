@@ -10,6 +10,7 @@ var env = require('../config.json'),
     Roll = require('./Roll.js'),
     When = require('./When.js'),
     SetWhen = require('./SetWhen.js'),
+    SWDTDT = require('./ShouldWeDoThisDumbThing.js');
     ForgetAboutDre = require('./ForgetAboutDre.js');
 
 var InsomBot = function () {
@@ -25,6 +26,7 @@ var InsomBot = function () {
     this.Roll = new Roll;
     this.When = new When;
     this.SetWhen = new SetWhen;
+    this.SWDTDT = new SWDTDT;
     this.ForgetAboutDre = new ForgetAboutDre;
 };
 
