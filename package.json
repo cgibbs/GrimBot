@@ -13,7 +13,8 @@
   "dependencies": {
     "discord.js": "^3.6.2",
     "lodash": "^4.15.0",
-    "node-dice-js": "0.1.2",
+    "node-dice-js": "^0.1.2",
+    "node-wikia": "^0.0.3",
     "imgur-search": "^1.0.1",
     "giphy-wrapper": "ptte/node-giphy",
     "urban": "^0.2.4"
