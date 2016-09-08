@@ -12,6 +12,7 @@ var env = require('../config.json'),
     SetWhen = require('./SetWhen.js'),
     SWDTDT = require('./ShouldWeDoThisDumbThing.js'),
     Wikia40K = require('./40KWikia.js'),
+    D4chan = require('./1d4chan.js'),
     ForgetAboutDre = require('./ForgetAboutDre.js');
 
 var InsomBot = function () {
@@ -29,6 +30,7 @@ var InsomBot = function () {
     this.SetWhen = new SetWhen;
     this.SWDTDT = new SWDTDT;
     this.Wikia40K = new Wikia40K;
+    this.D4chan = new D4chan;
     this.ForgetAboutDre = new ForgetAboutDre;
 };
 
