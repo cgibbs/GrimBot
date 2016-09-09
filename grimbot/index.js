@@ -1,4 +1,5 @@
 var env = require('../config.json'),
+    Commands = require('./Commands.js'),
     Help = require('./Help.js'),
     Imgur = require('./Imgur.js'),
     Giphy = require('./Giphy.js'),
@@ -17,6 +18,7 @@ var env = require('../config.json'),
 
 var InsomBot = function () {
     this.keywords = env.keywords;
+    this.Commands = new Commands;
     this.Help = new Help;
     this.Imgur = new Imgur;
     this.Giphy = new Giphy;
