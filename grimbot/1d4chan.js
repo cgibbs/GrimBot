@@ -38,7 +38,7 @@ d4chanModule.prototype.Message = function(keyword, message, callback)
         if (data === undefined) {
             return callback("Sorry, I couldn't find any articles for the term: " + term);
         }
-        return callback('https://1d4chan.org/wiki/' + data[0]['title']);
+        return callback('https://1d4chan.org/wiki/' + data[0]['title'].split(' ').join('_'));
     }));
 }
 
