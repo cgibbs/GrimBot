@@ -1,7 +1,7 @@
 var env = require('../config.json');
 var fs = require('fs');
 
-var filename = './insombot/currentStuff.json';
+var filename = './grimbot/currentStuff.json';
 
 var NewSessionModule = function () {};
 

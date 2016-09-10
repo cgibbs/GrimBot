@@ -3,7 +3,7 @@ var fs = require('fs');
 var _ = require('lodash');
 var Dice = require('node-dice-js');
 
-var filename = './insombot/currentStuff.json';
+var filename = './grimbot/currentStuff.json';
 
 var SWDTDTModule = function () {};
 

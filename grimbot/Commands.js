@@ -18,7 +18,7 @@ HelpModule.prototype.getKeywords = function()
 HelpModule.prototype.Message = function(keywords, message, callback)
 {
     var words = this.getKeywords() + '';
-    return callback("InsomBot Commands: " + words.split(',').join(', '));
+    return callback("GrimBot Commands: " + words.split(',').join(', '));
 }
 
 module.exports = HelpModule;
