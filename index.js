@@ -1,5 +1,5 @@
 var env = require('./config.json'),
-    InsomBot = require('./insombot/index.js'),
+    InsomBot = require('./grimbot/index.js'),
     Discord = require('discord.js');
 
 var ins = new InsomBot;
