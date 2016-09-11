@@ -14,7 +14,10 @@ var env = require('../config.json'),
     SWDTDT = require('./ShouldWeDoThisDumbThing.js'),
     Wikia40K = require('./40KWikia.js'),
     D4chan = require('./1d4chan.js'),
-    ForgetAboutDre = require('./ForgetAboutDre.js');
+    ForgetAboutDre = require('./ForgetAboutDre.js'),
+    SetBestQuote = require('./SetBestQuote.js'),
+    BestQuote = require('./BestQuote.js'),
+    RandomBestQuote = require('./RandomBestQuote.js');
 
 var InsomBot = function () {
     this.keywords = env.keywords;
@@ -34,6 +37,9 @@ var InsomBot = function () {
     this.Wikia40K = new Wikia40K;
     this.D4chan = new D4chan;
     this.ForgetAboutDre = new ForgetAboutDre;
+    this.SetBestQuote = new SetBestQuote;
+    this.BestQuote = new BestQuote;
+    this.RandomBestQuote = new RandomBestQuote;
 };
 
 InsomBot.prototype.loadKeywords = function ()
