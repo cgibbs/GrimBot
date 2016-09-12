@@ -1,7 +1,7 @@
 var env = require('../config.json');
 var fs = require('fs');
 var _ = require('lodash');
-var Dice = require('node-dice-js');
+var dice = require('droll');
 
 var filename = './grimbot/currentStuff.json';
 
@@ -9,17 +9,9 @@ var RollModule = function () {};
 
 RollModule.prototype.Message = function(keyword, message, callback)
 {
-	var dice = new Dice();
-	var mes = message.content.split(' ').slice(1);
-	var results = {};
+	var mes = message.content.split(' ').slice(1).join(' ');
 
-	try {
-		results = dice.execute(mes[0]);
-	} catch (err) {
-		return callback(err.message, 'not a valid format. Try something like \'4d20\' (blaze it).')
-	}
-
-    return callback(results.text);
+	return dice.validate(mes) ? callback(dice.roll(mes)) : callback('not a valid format. Try something like \'4d20\' (blaze it) (eyyyy).')
 }
 
 module.exports = RollModule;
