@@ -18,7 +18,8 @@ var env = require('../config.json'),
     SetBestQuote = require('./SetBestQuote.js'),
     BestQuote = require('./BestQuote.js'),
     RandomBestQuote = require('./RandomBestQuote.js'),
-    LIB = require('./LIB.js');
+    LIB = require('./LIB.js'),
+    GodSpeed = require('./GodSpeed.js');
 
 var InsomBot = function () {
     this.keywords = env.keywords;
@@ -42,6 +43,7 @@ var InsomBot = function () {
     this.BestQuote = new BestQuote;
     this.RandomBestQuote = new RandomBestQuote;
     this.LIB = new LIB;
+    this.GodSpeed = new GodSpeed;
 };
 
 InsomBot.prototype.loadKeywords = function ()
