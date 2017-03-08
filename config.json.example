@@ -13,6 +13,14 @@
     "SetWhen": "!setWhen",
     "NewSession": "!newSession",
     "ForgetAboutDre": "!forgetAboutDre"
+    "Giphy": "!giphy",
+    "Imgur": "!img",
+    "Urban": "!define",
+    "Wikia40K": "!40KWikia",
+    "D4chan": "!1d4chan",
+    "LIB": "!littleIndecisiveBitch",
+    "GodSpeed": "!godSpeed",
+    "Lenny": "!lenny"
   },
   "giphy_key": "dc6zaTOxFJmzC",
   "imgur_key": "",
