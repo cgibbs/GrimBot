@@ -3,9 +3,9 @@ var fs = require('fs');
 
 var TimeToChillModule = function () {};
 
-TimeToChill.prototype.Message = function(keyword, message, callback)
+TimeToChillModule.prototype.Message = function(keyword, message, callback)
 {
     return callback("https://www.youtube.com/watch?v=dmOQzFPfnh0&list=PLqMo-ZRZflH7PC5v0z37Emxiwal6cWAr3&index=1");
 }
 
-module.exports = TimeToChill;
+module.exports = TimeToChillModule;
