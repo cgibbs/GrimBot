@@ -20,7 +20,9 @@ var env = require('../config.json'),
     RandomBestQuote = require('./RandomBestQuote.js'),
     LIB = require('./LIB.js'),
     GodSpeed = require('./GodSpeed.js'),
-    Lenny = require('./Lenny.js');
+    Lenny = require('./Lenny.js'),
+    GIJoe = require('./GIJoe.js'),
+    TimeToChill = require('./TimeToChill.js');
 
 var InsomBot = function () {
     this.keywords = env.keywords;
@@ -46,6 +48,8 @@ var InsomBot = function () {
     this.LIB = new LIB;
     this.GodSpeed = new GodSpeed;
     this.Lenny = new Lenny;
+    this.GIJoe = new GIJoe;
+    this.TimeToChill = new TimeToChill;
 };
 
 InsomBot.prototype.loadKeywords = function ()
