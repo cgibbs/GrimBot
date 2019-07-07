@@ -1,8 +1,7 @@
 {
   "discord": {
-    "email": "",
-    "password": ""
-    },
+    "token": ""
+  },
   "keywords": {
     "Help": "!commands",
     "CheckIn": "!checkIn",
@@ -12,7 +11,7 @@
     "When": "!when",
     "SetWhen": "!setWhen",
     "NewSession": "!newSession",
-    "ForgetAboutDre": "!forgetAboutDre"
+    "ForgetAboutDre": "!forgetAboutDre",
     "Giphy": "!giphy",
     "Imgur": "!img",
     "Urban": "!define",

@@ -11,15 +11,16 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "discord.js": "^3.6.2",
-    "lodash": "^4.15.0",
-    "droll": "^0.2.0",
-    "node-wikia": "^0.0.3",
-    "imgur-search": "^1.0.1",
+    "bluebird": "^3.5.5",
+    "dice": "0.0.2",
+    "discord.js": "^11.5.1",
+    "droll": "^0.2.1",
     "giphy-wrapper": "ptte/node-giphy",
-    "urban": "^0.2.4",
-    "nodemw": "^0.10.1"
+    "imgur-search": "^1.0.1",
+    "lodash": "^4.17.11",
+    "node-wikia": "^0.0.3",
+    "nodemw": "^0.12.2",
+    "urban": "^0.3.2"
   },
   "keywords": [
     "insombot"
