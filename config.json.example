@@ -3,36 +3,7 @@
     "token": ""
   },
   "keywords": {
-    "Help": "!commands",
-    "CheckIn": "!checkIn",
-    "CheckOut": "!checkOut",
-    "Report": "!report",
-    "Roll": "!roll",
-    "When": "!when",
-    "SetWhen": "!setWhen",
-    "NewSession": "!newSession",
-    "ForgetAboutDre": "!forgetAboutDre",
-    "Giphy": "!giphy",
-    "Imgur": "!img",
-    "Urban": "!define",
-    "Wikia40K": "!40KWikia",
-    "D4chan": "!1d4chan",
-    "LIB": "!littleIndecisiveBitch",
-    "GodSpeed": "!godSpeed",
-    "Lenny": "!lenny"
-  },
-  "giphy_key": "dc6zaTOxFJmzC",
-  "imgur_key": "",
-  "twitch": {
-    "client_id": "",
-    "username": "",
-    "password": "",
-    "scope": "user_read"
-  },
-  "database": {
-    "host": "127.0.0.1",
-    "database": "",
-    "user": "",
-    "password": ""
+    "Lenny": "!lenny",
+    "ForgiveMePadre": "!forgiveMePadre"
   }
 }
